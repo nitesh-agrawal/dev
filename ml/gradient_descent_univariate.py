@@ -1,6 +1,8 @@
+# calculate hypothesis
 def h(th0, th1, x):
     return th0 + th1 * x
 
+# calculate diff for th-idx
 def diff(alp, yarr, xarr, th0, th1, idx):
     sum = 0.0
     for i, y in enumerate(yarr):

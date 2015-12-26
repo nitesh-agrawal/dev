@@ -34,7 +34,7 @@ if __name__ == "__main__":
     yarr = [2,4,6,8,10,12,14,16,18,20]
 
     th0, th1 = get_hypothesis(yarr, xarr, 0.0001, 100)
-    print "hypothesis: " + str(th0) + " + x * " + str(th1)
+    print "Hypothesis: " + str(th0) + " + x * " + str(th1)
 
 
 
